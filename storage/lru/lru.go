@@ -2,7 +2,7 @@ package lru
 
 import (
 	"container/list"
-	. "gucache/storage"
+	. "github.com/Meshate/gucache/storage"
 	"unsafe"
 )
 

@@ -1,8 +1,8 @@
 package gucache
 
 import (
-	"gucache/storage"
-	"gucache/storage/lru"
+	"github.com/Meshate/gucache/storage"
+	"github.com/Meshate/gucache/storage/lru"
 	"sync"
 )
 

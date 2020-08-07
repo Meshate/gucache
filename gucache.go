@@ -64,8 +64,8 @@ func (g *Group) Get(key string) (ByteView, error) {
 	return g.loadByGetter(key)
 }
 
-func (g *Group) Set(key string, value string) {
-	v := ByteView{b: []byte(value)}
+func (g *Group) Set(key string, value []byte) {
+	v := ByteView{b: value}
 	g.mainCache.set(key, v)
 }
 

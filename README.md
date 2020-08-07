@@ -11,3 +11,6 @@ first download module
 go get -u github.com/Meshate/gucache
 ```
 then use it in your project
+
+### TODO
+- 更多种的缓存淘汰策略

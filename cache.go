@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-const(
+const (
 	StorageLru int64 = iota
 )
 
